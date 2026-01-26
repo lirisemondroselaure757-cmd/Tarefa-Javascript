@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        header {
+            height: 80px;
+            background-color: antiquewhite;
+            border: 1px solid red;
+
+        }
+
+        nav {
+            width: 800px;
+            height: 50px;
+            margin: auto;
+            background-color: steelblue;
+            text-align: center;
+        }
+
+        .itemMenu {
+            margin-top: 12px;
+            display: inline-block;
+            width: 140px;
+            font-size: 24px;
+            color: white !important;
+        }
+
+        .itemMenu a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px 10px 1px;
+        }
+
+        .itemMenu a:hover {
+            text-decoration: underline;
+            color: steelblue;
+            background-color: lightsteelblue;
+        }
+
+        ul li {
+            list-style-type: disc;
+        }
+
+        ul li:first-child {
+            color: green;
+        }
+
+        ol li {
+            list-style-type: upper-roman;
+        }
+
+        ol li span {
+            color: red;
+        }
+
+        ol li {
+            color: blue;
+        }
+        main{
+            text-align: center;
+
+        }
+
+        .card {
+            width: 250px;
+            height: 480px;
+            padding: 5px;
+            border: 1px solid indigo;
+            background-color: violet;
+            text-align: center;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .card img {
+            width: 245px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>MINHA EMPRESA</header>
+    <nav>
+        <ul>
+            <li class="itemMenu"><a href="Index.html">Inicio</a></li>
+            <li class="itemMenu"><a href="produtos.html">Produtos</a></li>
+            <li class="itemMenu"><a href="lojas.html">Lojas</a></li>
+            <li class="itemMenu"><a href="promocoes.html">Promoções</a></li>
+            <li class="itemMenu"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="card">
+            <img src="https://www.blogdofabossi.com.br/wp-content/uploads/2017/03/Filme.jpg" alt="imagem">
+            <h3>titulo do meu card</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque animi ab nam doloribus
+                voluptates ea voluptas eius culpa nostrum, nesciunt iure debitis vel obcaecati, esse, consequatur nulla
+                alias sed!
+            </p>
+
+        </section>
+        <section class="card">
+            <img src="https://www.blogdofabossi.com.br/wp-content/uploads/2017/03/Filme.jpg" alt="imagem">
+            <h3>titulo do meu card</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque animi ab nam doloribus
+                voluptates ea voluptas eius culpa nostrum, nesciunt iure debitis vel obcaecati, esse, consequatur nulla
+                alias sed!
+            </p>
+
+        </section>
+        <section class="card">
+            <img src="https://www.blogdofabossi.com.br/wp-content/uploads/2017/03/Filme.jpg" alt="imagem">
+            <h3>titulo do meu card</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque animi ab nam doloribus
+                voluptates ea voluptas eius culpa nostrum, nesciunt iure debitis vel obcaecati, esse, consequatur nulla
+                alias sed!
+            </p>
+
+        </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, reiciendis dicta! Rem cum voluptas eaque
+            exercitationem sunt aperiam quo delectus at laudantium error mollitia dolore id, totam quidem corporis
+            minima.</p>
+    </main>
+    <h1>Listas</h1>
+    <ul>
+        <li>List item</li>
+        <li>-Pão</li>
+        <li>-Pizza</li>
+        <li>-Churrasco</li>
+    </ul>
+
+    <ol>
+        <li>-Verde</li>
+        <li>-Azul</li>
+        <li>-Vermelho</li>
+        <li><span>-Verde</span></li>
+    </ol>
+    <dl>
+        <dt>Definition title</dt>
+        <dd>Definition description (data)</dd>
+        <dt>Malavirioso lorem</dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur iusto similique blanditiis qui quae eum
+            inventore ab dolore? Natus et voluptatum itaque nisi ducimus nesciunt inventore at repellat non dolore?</dd>
+
+        <dt>Carnaval</dt>
+        <dt>Independencia</dt>
+    </dl>
+    <details>
+        <summary>Alguns details</summary>
+        <p>Mais infomaçoes sobre a details</p>
+    </details>
+</body>
+
+</html>
